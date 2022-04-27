@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet" />
+    <title>JavaScript DOM Tutorials</title>
+  </head>
+  <body>
+  	<div id="wrapper">
+	    <header>
+	    	<div id="page-banner">
+	    		<h1 class="title">Happenings</h1>
+          <p>What's up this week</p>
+          <form id="search-event">
+            <input type="text" placeholder="Search events..." />
+          </form>
+	    	</div>
+	    </header>
+	    <div id="athletic-list">
+	    	<h2 class="title">Athletic Events</h2>
+	    	<ul>
+	    		<li>
+	    			<span class="name">Soccer</span>
+	    			<span class="button">delete</span>
+	    			<br>
+	    			<span class="location">Home</span>
+	    			<span class="day">Monday</span>
+	    			<span class="time">4:30</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">Baseball</span>
+	    			<span class="button">delete</span>
+	    			<br>
+	    			<span class="location">Silverdale</span>
+	    			<span class="day">Tuesday</span>
+	    			<span class="time">6:30</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">Soccer</span>
+	    			<span class="button">delete</span>
+	    			<br>
+	    			<span class="location">Baylor</span>
+	    			<span class="day">Thursday</span>
+	    			<span class="time">7:00</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">Softball</span>
+	    			<span class="button">delete</span>
+	    			<br>
+	    			<span class="location">Home</span>
+	    			<span class="day">Thursday</span>
+	    			<span class="time">5:30</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">Baseball</span>
+	    			<span class="button">delete</span>
+	    			<br>
+	    			<span class="location">Home</span>
+	    			<span class="day">Friday</span>
+	    			<span class="time">7:00</span>
+	    		</li>
+	    	</ul>
+	    </div>
+	    <form id="add-event">
+	    	<input id = "addEvent" type="text" placeholder="Add an event..." />
+	    	<input id = "addTime" type="text" placeholder="Add a day and time..." />
+	    	<input id = "addLocation" type="text" placeholder="Add a location..." />
+	    	<button>Add</button>
+	    </form>
+
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
